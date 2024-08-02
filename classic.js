@@ -241,7 +241,7 @@ return zetsubo.sendMessage(from, { text: teks, contextInfo:{"externalAdReply": {
 const zetsreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
         title : `𝐇𝐀𝐑𝐔𝐊𝐀_𝐒𝐀𝐊𝐔𝐑𝐀-𝐁𝐔𝐆-𝐁𝐎𝐓`,
-        body : `JOHNLEO`,
+        body : `no-name tech`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
         mediaUrl: `https://www.instagram.com/johnleo666?utm_source=qr&igsh=MzNlNGNkZWQ4Mg`,
@@ -252,7 +252,7 @@ const zetsreply = async (teks) => {
 const virgamreply = async (teks) => {
 	    zetsubo.sendMessage(bnnd, { text:teks, contextInfo: {externalAdReply : {
         title : `⫹⸙⧉𝐇𝐀𝐑𝐔𝐊𝐀_𝐒𝐀𝐊𝐔𝐑𝐀-𝐁𝐔𝐆-𝐁𝐎𝐓⧉⸙⫺`,
-        body : `⧉⸙JOHNLEO⸙⧉⸙⫺`,
+        body : `⧉⸙no-name tech⸙⧉⸙⫺`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
         mediaUrl: `https://www.instagram.com/johnleo666?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
@@ -263,7 +263,7 @@ const virgamreply = async (teks) => {
 const genreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
         title : `⫹⸙⧉HARUKA_SAKURA⧉⸙⫺`,
-        body : `⧉⸙JOHNLEO⧉`,
+        body : `⧉⸙no-name tech⧉`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
         mediaUrl: `https://www.instagram.com/johnleo666?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
@@ -344,7 +344,7 @@ var hawemod = [
 
 ` ☸️𝐇𝐀𝐑𝐔𝐊𝐀_𝐒𝐀𝐊𝐔𝐑𝐀-𝐁𝐔𝐆-𝐁𝐎𝐓☸️
 ❗️𝐭𝐲𝐩𝐞 .𝐚𝐥𝐥𝐦𝐞𝐧𝐮 𝐟𝐨𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬❗️
-  😈𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 💀𝐉𝐨𝐡𝐧𝐥𝐞𝐨💀`
+  😈𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 💀no-name tech💀`
 ]
 let { key } = await zetsubo.sendMessage(from, {text: '@𝐃𝐄𝐀𝐃𝐏𝐎𝐎𝐋 𝐕2.....'})//Pengalih isu
 
@@ -375,7 +375,7 @@ participant: mek.key.participant
                 await sleep(1500)
                 zetsubo.sendMessage(m.chat, reactionMessage)*/
 //=================================================//
-if (!zetsubo.public) {
+if (!zetsubo.private) {
 if (!m.key.fromMe) return
 }
 let rn = ['recording']
